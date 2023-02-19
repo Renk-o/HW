@@ -2,9 +2,14 @@
   "name": "1",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "source": "src/index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "npx eslint src/js/**",
+    "prod": "npx parcel build",
+    "dev": "parcel",
+    "build": "parcel build",
+    "start": "npx parcel",
+    "start1": "run-s lint dev"
   },
   "repository": {
     "type": "git",
@@ -15,5 +20,12 @@
   "bugs": {
     "url": "https://github.com/Renk-o/HW/issues"
   },
-  "homepage": "https://github.com/Renk-o/HW#readme"
+  "homepage": "https://github.com/Renk-o/HW#readme",
+  "dependencies": {
+    "build": "^0.1.4",
+    "jquery": "^3.6.3"
+  },
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  }
 }
