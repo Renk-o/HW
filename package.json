@@ -27,6 +27,7 @@
   },
   "devDependencies": {
     "@eslint/eslintrc": "^1.4.1",
+    "@parcel/transformer-sass": "^2.8.3",
     "eslint": "^4.19.1",
     "eslintrc": "^1.0.6",
     "parcel": "^2.8.3"
