@@ -4,7 +4,7 @@
   "description": "",
   "source": "src/index.html",
   "scripts": {
-    "lint": "npx eslint src/**",
+    "lint": "npx eslint src/js/**",
     "prod": "npx parcel build",
     "dev": "parcel",
     "build": "parcel build",
@@ -27,6 +27,7 @@
   },
   "devDependencies": {
     "@eslint/eslintrc": "^1.4.1",
+    "eslint": "^4.19.1",
     "eslintrc": "^1.0.6",
     "parcel": "^2.8.3"
   }
