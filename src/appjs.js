@@ -1,3 +1,5 @@
 import $ from "jquery";
 
-console.log($);
+import hi from './module';
+
+hi()
