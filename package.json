@@ -26,6 +26,7 @@
     "jquery": "^3.6.3"
   },
   "devDependencies": {
+    "eslintrc": "^1.0.6",
     "parcel": "^2.8.3"
   }
 }
